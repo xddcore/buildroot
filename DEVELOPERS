@@ -311,7 +311,7 @@ F:	package/taskd/
 N:	Benjamin Kamath <kamath.ben@gmail.com>
 F:	package/lapack/
 
-N:	Bernd Kuhls <bernd@kuhls.net>
+N:	Bernd Kuhls <bernd.kuhls@t-online.de>
 F:	package/alsa-lib/
 F:	package/alsa-utils/
 F:	package/apache/
@@ -471,6 +471,7 @@ F:	package/vdr-plugin-vnsiserver/
 F:	package/vlc/
 F:	package/vnstat/
 F:	package/waylandpp/
+F:	package/x11r7/
 F:	package/x264/
 F:	package/x265/
 F:	package/xmrig/
@@ -1618,6 +1619,19 @@ N:	José Luis Salvador Rufo <salvador.joseluis@gmail.com>
 F:	package/zfs/
 F:	support/testing/tests/package/test_zfs.py
 
+N:	José Pekkarinen <jose.pekkarinen@unikie.com>
+F:	package/alfred/
+F:	package/avocado/
+F:	package/bmx7/
+F:	package/opensc/
+F:	package/python-aexpect/
+F:	package/python-alembic/
+F:	package/python-lark/
+F:	package/softhsm2/
+F:	support/testing/tests/package/sample_python_aexpect.py
+F:	support/testing/tests/package/test_avocado.py
+F:	support/testing/tests/package/test_python_aexpect.py
+
 N:	Joseph Kogut <joseph.kogut@gmail.com>
 F:	package/at-spi2-core/
 F:	package/clang/
@@ -2294,7 +2308,6 @@ F:	configs/roseapplepi_defconfig
 F:	configs/sheevaplug_defconfig
 F:	configs/visionfive_defconfig
 F:	package/bats-core/
-F:	package/dfu-programmer/
 F:	package/docker-compose/
 F:	package/dump1090/
 F:	package/fatcat/

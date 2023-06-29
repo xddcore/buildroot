@@ -20,10 +20,6 @@ BLUEZ_ALSA_CONF_OPTS = \
 	--with-alsaplugindir=/usr/lib/alsa-lib \
 	--with-alsaconfdir=/etc/alsa/conf.d
 
-ifeq ($(BR2_PACKAGE_ALSA_PLUGINS),y)
-BLUEZ_ALSA_DEPENDENCIES += alsa-plugins
-endif
-
 ifeq ($(BR2_PACKAGE_FDK_AAC),y)
 BLUEZ_ALSA_DEPENDENCIES += fdk-aac
 BLUEZ_ALSA_CONF_OPTS += --enable-aac
